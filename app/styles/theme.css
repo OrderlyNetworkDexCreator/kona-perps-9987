@@ -1,100 +1,141 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-family: 'DM Sans', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* colors */
-  --oui-color-primary: 176 132 233;
-  --oui-color-primary-light: 213 190 244;
-  --oui-color-primary-darken: 137 76 209;
+  /* Kona Brand Colors - Primary Purple Theme */
+  --oui-color-primary: 120 53 214; /* #7835D6 - Kona's primary purple */
+  --oui-color-primary-light: 145 89 220; /* #9159DC - lighter purple */
+  --oui-color-primary-darken: 95 17 188; /* #5F11BC - darker purple */
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 189 107 237;
-  --oui-color-link-light: 217 152 250;
+  --oui-color-link: 120 53 214; /* #7835D6 - same as primary */
+  --oui-color-link-light: 145 89 220; /* #9159DC - lighter purple */
 
   --oui-color-secondary: 255 255 255;
-  --oui-color-tertiary: 218 218 218;
-  --oui-color-quaternary: 218 218 218;
+  --oui-color-tertiary: 212 212 216; /* #d4d4d8 - from Kona's default-300 */
+  --oui-color-quaternary: 212 212 216; /* #d4d4d8 - from Kona's default-300 */
 
-  --oui-color-danger: 245 97 139;
-  --oui-color-danger-light: 250 167 188;
-  --oui-color-danger-darken: 237 72 122;
+  /* Success - Kona's success green */
+  --oui-color-danger: 243 18 96; /* #f31260 - Kona's danger red */
+  --oui-color-danger-light: 248 113 160; /* #f871a0 - lighter red */
+  --oui-color-danger-darken: 194 14 77; /* #c20e4d - darker red */
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 41 233 169;
-  --oui-color-success-light: 101 240 194;
-  --oui-color-success-darken: 0 161 120;
+  --oui-color-success: 23 201 100; /* #17c964 - Kona's success green */
+  --oui-color-success-light: 69 212 131; /* #45d483 - lighter green */
+  --oui-color-success-darken: 18 161 80; /* #12a150 - darker green */
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 255 209 70;
-  --oui-color-warning-light: 255 229 133;
-  --oui-color-warning-darken: 255 152 0;
+  --oui-color-warning: 245 165 36; /* #f5a524 - Kona's warning orange */
+  --oui-color-warning-light: 247 183 80; /* #f7b750 - lighter orange */
+  --oui-color-warning-darken: 196 132 29; /* #c4841d - darker orange */
   --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 36 32 47;
-  --oui-color-fill-active: 40 46 58;
+  /* Kona Dark Theme Base Colors */
+  --oui-color-fill: 24 24 27; /* #18181b - Kona's dark background */
+  --oui-color-fill-active: 39 39 42; /* #27272a - Kona's content-2 */
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 81 72 107;
-  --oui-color-base-3: 68 61 69;
-  --oui-color-base-4: 57 52 74;
-  --oui-color-base-5: 51 46 66;
-  --oui-color-base-6: 43 38 56;
-  --oui-color-base-7: 36 32 47;
-  --oui-color-base-8: 29 26 38;
-  --oui-color-base-9: 22 20 28;
-  --oui-color-base-10: 14 13 18;
+  --oui-color-base-1: 161 161 170; /* #a1a1aa - Kona's default-400 */
+  --oui-color-base-2: 81 81 91; /* #52525b - Kona's default-600 */
+  --oui-color-base-3: 63 63 70; /* #3f3f46 - Kona's default-700 */
+  --oui-color-base-4: 39 39 42; /* #27272a - Kona's default-200 */
+  --oui-color-base-5: 24 24 27; /* #18181b - Kona's default-100 */
+  --oui-color-base-6: 18 18 27; /* #18181b - Kona's default-50 */
+  --oui-color-base-7: 0 0 0; /* #000000 - Kona's layout background */
+  --oui-color-base-8: 0 0 0; /* #000000 - pure black */
+  --oui-color-base-9: 0 0 0; /* #000000 - pure black */
+  --oui-color-base-10: 0 0 0; /* #000000 - pure black */
 
-  --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 255 255 255;
+  --oui-color-base-foreground: 236 237 238; /* #eceDEE - Kona's layout foreground */
+  --oui-color-line: 255 255 255; /* #ffffff - white lines */
 
-  --oui-color-trading-loss: 245 97 139;
+  --oui-color-trading-loss: 243 18 96; /* #f31260 - Kona's danger */
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
+  --oui-color-trading-profit: 23 201 100; /* #17c964 - Kona's success */
   --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* gradients */
-  --oui-gradient-primary-start: 40 0 97;
-  --oui-gradient-primary-end: 189 107 237;
+  /* Kona Brand Gradients */
+  --oui-gradient-primary-start: 120 53 214; /* #7835D6 */
+  --oui-gradient-primary-end: 145 89 220; /* #9159DC */
 
-  --oui-gradient-secondary-start: 81 42 121;
-  --oui-gradient-secondary-end: 176 132 233;
+  --oui-gradient-secondary-start: 95 17 188; /* #5F11BC */
+  --oui-gradient-secondary-end: 120 53 214; /* #7835D6 */
 
-  --oui-gradient-success-start: 1 83 68;
-  --oui-gradient-success-end: 41 223 169;
+  --oui-gradient-success-start: 18 161 80; /* #12a150 */
+  --oui-gradient-success-end: 23 201 100; /* #17c964 */
 
-  --oui-gradient-danger-start: 153 24 76;
-  --oui-gradient-danger-end: 245 97 139;
+  --oui-gradient-danger-start: 194 14 77; /* #c20e4d */
+  --oui-gradient-danger-end: 243 18 96; /* #f31260 */
 
-  --oui-gradient-brand-start: 231 219 249;
-  --oui-gradient-brand-end: 159 107 225;
-  --oui-gradient-brand-stop-start: 6.62%;
-  --oui-gradient-brand-stop-end: 86.5%;
-  --oui-gradient-brand-angle: 17.44deg;
+  --oui-gradient-brand-start: 120 53 214; /* #7835D6 - Kona primary */
+  --oui-gradient-brand-end: 145 89 220; /* #9159DC - Kona primary light */
+  --oui-gradient-brand-stop-start: 0%;
+  --oui-gradient-brand-stop-end: 100%;
+  --oui-gradient-brand-angle: 0deg;
 
-  --oui-gradient-warning-start: 152 58 8;
-  --oui-gradient-warning-end: 255 209 70;
+  --oui-gradient-warning-start: 196 132 29; /* #c4841d */
+  --oui-gradient-warning-end: 245 165 36; /* #f5a524 */
 
-  --oui-gradient-neutral-start: 27 29 24;
-  --oui-gradient-neutral-end: 38 41 46;
+  --oui-gradient-neutral-start: 24 24 27; /* #18181b */
+  --oui-gradient-neutral-end: 39 39 42; /* #27272a */
 
-  /* rounded */
-  --oui-rounded-sm: 2px;
-  --oui-rounded: 4px;
-  --oui-rounded-md: 6px;
-  --oui-rounded-lg: 8px;
-  --oui-rounded-xl: 12px;
-  --oui-rounded-2xl: 16px;
-  --oui-rounded-full: 9999px;
+  /* Kona Border Radius */
+  --oui-rounded-sm: 8px; /* Kona's radius-sm */
+  --oui-rounded: 12px; /* Kona's radius-md */
+  --oui-rounded-md: 12px; /* Kona's radius-md */
+  --oui-rounded-lg: 14px; /* Kona's radius-lg */
+  --oui-rounded-xl: 16px;
+  --oui-rounded-2xl: 20px;
+  --oui-rounded-full: 9999px; /* Kona's button radius */
 
-  /* spacing */
-  --oui-spacing-xs: 20rem;
-  --oui-spacing-sm: 22.5rem;
-  --oui-spacing-md: 26.25rem;
-  --oui-spacing-lg: 30rem;
-  --oui-spacing-xl: 33.75rem;
+  /* Kona Spacing */
+  --oui-spacing-xs: 0.5rem;
+  --oui-spacing-sm: 0.75rem;
+  --oui-spacing-md: 1rem;
+  --oui-spacing-lg: 1.5rem;
+  --oui-spacing-xl: 2rem;
 }
 
 html, body {
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'DM Sans', sans-serif !important;
   font-size: 16px !important;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Kona Button Styles */
+.btn {
+  font-family: 'DM Sans', sans-serif !important;
+  font-weight: 500;
+  border-radius: 9999px;
+  border-width: 1px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Kona Typography */
+.text-tiny {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+
+.text-medium {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+.text-large {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
 }
