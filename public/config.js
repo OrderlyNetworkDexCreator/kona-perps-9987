@@ -32,7 +32,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_SEO_THEME_COLOR": "#9159dc",
   "VITE_SEO_KEYWORDS": "Kona, Abstract, DeFi, Perps, Perpetuals, Ethereum, ETH, Long, Short, Trade",
   "VITE_AVAILABLE_LANGUAGES": "",
-  "VITE_USE_CUSTOM_PNL_POSTERS": "false",
-  "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
+  "VITE_USE_CUSTOM_PNL_POSTERS": "true",
+  "VITE_CUSTOM_PNL_POSTER_COUNT": "1",
   "VITE_TRADING_VIEW_COLOR_CONFIG": ""
 };
